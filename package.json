@@ -2,7 +2,7 @@
   "name": "taro-app-router",
   "description": "为taro项目引入约定式路由",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/FanetheDivine/taro-app-router"
@@ -11,7 +11,7 @@
     "taro",
     "router"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "esm": "^3.2.25"
   }
 }
