@@ -1,8 +1,6 @@
-import path from "path";
-import fs from "fs";
-import ESM from "esm";
-
-const esm = ESM(module);
+const path = require("path")
+const fs = require("fs")
+const esm = require('esm')(module);
 
 export default function TaorAppRouter(ctx, options) {
   const sourcePath = ctx.paths.sourcePath;
