@@ -1,7 +1,12 @@
 {
   "name": "taro-app-router",
   "description": "为taro项目引入约定式路由",
-  "version": "1.0.0",
+  "license": "MIT",
+  "version": "1.1",
+  "keywords": [
+    "taro",
+    "router"
+  ],
   "peerDependencies": {
     "esm": "^3.2.25"
   }
