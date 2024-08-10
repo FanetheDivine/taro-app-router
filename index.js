@@ -2,7 +2,7 @@ const path = require("path")
 const fs = require("fs")
 const esm = require('esm')(module);
 
-export default function TaorAppRouter(ctx, options) {
+module.exports = function TaorAppRouter(ctx, options) {
   const sourcePath = ctx.paths.sourcePath;
   const config = options?.config ?? "app.config.ts";
   const root = options?.root ?? "app";
